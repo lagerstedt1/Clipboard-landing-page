@@ -12,15 +12,12 @@ body {
   padding: 0px;
   margin: 0;
 }
-
-  .container {
+.container {
     width: 90%;
-    max-width: 360px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
 .logo-container {
 padding: 5px;
 }
@@ -57,4 +54,7 @@ padding: 5px;
   background-color: rgb(40, 92, 235);
   border-radius: 20px;
   margin-top: 10px;
+}
+.computer-screen {
+  height: 100px;
 }
