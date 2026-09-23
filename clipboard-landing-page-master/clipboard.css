@@ -107,7 +107,7 @@ padding: 5px;
   bottom: 0;
   left: 0;
   right: 0; 
-  height: 550px;
+  height: 450px;
   z-index: 90;
   background-color: rgb(237, 237, 237);
 }
@@ -121,7 +121,7 @@ padding: 5px;
 .bottom-logos-container {
   display: flex;
   flex-direction: row;
-  padding-bottom: 180px;
+  padding-bottom: 100px;
   gap: 40px;
   margin-top: 30px;
 }
@@ -201,7 +201,7 @@ padding: 5px;
 .container {
     width: 100%;
     display: flex;
-    max-width: 900px;
+    max-width: 1500px;
     flex-direction: column;
     align-items: center;
     z-index: 101;
@@ -270,15 +270,15 @@ padding-top: 10px;
   bottom: 0;
   left: 0;
   right: 0; 
-  height: 420px;
+  height: 150px;
   z-index: 99;
   background-color: rgb(237, 237, 237);
 }
 
 .logo-bottom {
-  height: 50px;
-  margin-bottom: 10px;
-  margin-top: 50px;
+  height: 60px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .bottom-logos-container {
@@ -288,12 +288,20 @@ padding-top: 10px;
   gap: 40px;
   margin-top: 30px;
 }
+
+.bottom-logos-container img {
+  height: 40px;
+}
+
 .bottom-info {
   color: rgb(91, 91, 91);
-  text-align: center;
   display: flex;
   flex-direction: row;
-  gap: 40px;
+  width: 90%;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 
 .button-container {
@@ -342,4 +350,16 @@ gap: 10px;
   width: 270px;
 }
 
+.bottom-combined-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+    
+}
+.bottom-combined-row p {
+margin-bottom: 10px;
+text-align: left;
+width: 150px;
+}
 }
