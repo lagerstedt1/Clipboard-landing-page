@@ -304,6 +304,11 @@ padding-top: 10px;
 .bottom-logos-container img {
   height: 40px;
   cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.bottom-logos-container img:hover {
+  opacity: 0.8;
 }
 
 .bottom-info {
@@ -339,7 +344,7 @@ margin-bottom: 50px;
 }
 
 .computer-screen {
-  margin-left: -190px;
+  margin-left: -100px;
 }
 
 .logo-row {
