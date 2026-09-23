@@ -4,7 +4,7 @@ body {
   font-weight: 400;
   width: 100%;
   height: auto;
-  min-height: 200px;
+  min-height: 300px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -15,11 +15,12 @@ body {
 }
 
 .background-image-mobile {
-  z-index: 100;
+  z-index: 99;
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
+  width: 100%
 }
 
 .background-image-desktop {
@@ -28,17 +29,20 @@ body {
   top: 0;
   right: 0;
   left: 0;
-  opacity: 1;
+  opacity: 0;
   width: 40%;
 }
 
 .container {
     width: 100%;
+    max-width: 375px;
     display: flex;
-    max-width: 350px;
     flex-direction: column;
     align-items: center;
     z-index: 100;
+    box-sizing: border-box;
+    padding-left:10px;
+    padding-right:10px;
   }
 .logo-container {
 padding: 5px;
@@ -101,8 +105,8 @@ padding: 5px;
   bottom: 0;
   left: 0;
   right: 0; 
-  height: 400px;
-  z-index: 99;
+  height: 550px;
+  z-index: 90;
   background-color: rgb(237, 237, 237);
 }
 
@@ -115,7 +119,7 @@ padding: 5px;
 .bottom-logos-container {
   display: flex;
   flex-direction: row;
-  margin-bottom: 30px;
+  padding-bottom: 180px;
   gap: 40px;
   margin-top: 30px;
 }
@@ -138,6 +142,18 @@ padding: 5px;
 }
 
 .text-row-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.features-row {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.feature-block {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -171,7 +187,7 @@ padding: 5px;
 }
 
 .background-image-mobile {
-  z-index: 100;
+  z-index: 90;
   position: absolute;
   top: 0;
   right: 0;
@@ -186,6 +202,7 @@ padding: 5px;
     max-width: 900px;
     flex-direction: column;
     align-items: center;
+    z-index: 101;
   }
 .logo-container {
 padding: 5px;
@@ -249,7 +266,7 @@ padding-top: 10px;
   bottom: 0;
   left: 0;
   right: 0; 
-  height: 400px;
+  height: 420px;
   z-index: 99;
   background-color: rgb(237, 237, 237);
 }
@@ -263,7 +280,7 @@ padding-top: 10px;
 .bottom-logos-container {
   display: flex;
   flex-direction: row;
-  margin-bottom: 30px;
+  padding-bottom: 20px;
   gap: 40px;
   margin-top: 30px;
 }
@@ -299,7 +316,23 @@ gap: 10px;
 .logo-row {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.features-row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.feature-block {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 270px;
 }
 
 }
