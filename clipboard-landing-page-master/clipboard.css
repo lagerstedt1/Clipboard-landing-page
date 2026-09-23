@@ -71,6 +71,7 @@ padding: 5px;
   border-radius: 25px;
   font-size: 16px;
   font-family: "Bai Jamjuree";
+  cursor: pointer;
 }
 .mac-button {
   padding-left: 60px;
@@ -84,6 +85,7 @@ padding: 5px;
   font-size: 16px;
   margin-top: 10px;
   font-family: "Bai Jamjuree";
+  cursor: pointer;
 }
 .computer-screen, .devices {
   height: 200px;
@@ -232,6 +234,7 @@ padding-top: 10px;
   border-radius: 90px;
   font-size: 20px;
   font-family: "Bai Jamjuree";
+  cursor: pointer;
 }
 .mac-button {
   padding-left: 60px;
@@ -245,6 +248,7 @@ padding-top: 10px;
   margin: 0;
   font-size: 20px;
   font-family: "Bai Jamjuree";
+  cursor: pointer;
 }
 .computer-screen, .devices {
   height: 500px;
@@ -287,6 +291,9 @@ padding-top: 10px;
 .bottom-info {
   color: rgb(91, 91, 91);
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
 }
 
 .button-container {
