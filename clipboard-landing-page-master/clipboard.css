@@ -34,8 +34,8 @@ body {
 
 .container {
     width: 100%;
+    max-width: 365px;
     display: flex;
-    max-width: 350px;
     flex-direction: column;
     align-items: center;
     z-index: 100;
@@ -138,6 +138,18 @@ padding: 5px;
 }
 
 .text-row-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.features-row {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.feature-block {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -249,7 +261,7 @@ padding-top: 10px;
   bottom: 0;
   left: 0;
   right: 0; 
-  height: 400px;
+  height: 420px;
   z-index: 99;
   background-color: rgb(237, 237, 237);
 }
@@ -299,7 +311,23 @@ gap: 10px;
 .logo-row {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.features-row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.feature-block {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 270px;
 }
 
 }
