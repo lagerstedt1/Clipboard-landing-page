@@ -384,7 +384,7 @@ transition: color 0.15s;
 }
 
 .clickable-text:hover {
-  color: rgb(11, 203, 152);
+  color: rgb(10, 203, 152);
   cursor: pointer;
 }
 
